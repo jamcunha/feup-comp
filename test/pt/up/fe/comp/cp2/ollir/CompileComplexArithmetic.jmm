@@ -1,0 +1,29 @@
+import B.C;
+
+class A {
+
+    public static void main(String[] args) {
+
+    }
+
+    int blah() {
+        A a;
+        int x;
+        x = 2;
+        this.func(1 + 2 * 3 - 4 * x / this.foo());
+        return 0;
+    }
+
+    int foo() {
+        return 1;
+    }
+
+    boolean bar() {
+        return true;
+    }
+
+    int func(int a) {
+        return 0;
+    }
+
+}
